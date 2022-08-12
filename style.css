@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("/fonts/Montserrat-Regular.woff") format("woff");
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    background-color: #EFE6E4;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main-menu-list {
+    list-style-type: none;
+}
+
+.main-menu-item a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+}
+
+.tel a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+}
+
+.promo-tagline {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #533738;
+}
+
+
+.promo-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;
+    background-color: #CC8B86;
+    cursor: pointer;
+}
+
+.main-tagline {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+
+.advantages {
+    background-color: #8D7370;
+}
+
+.advantages-list {
+    list-style-type: none;
+}
+
+.advantages-item {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.advantages-item-text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.button-next a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #533738;
+}
+
+.team {
+    background-color: #E2C4BA;
+}
+
+.team-list {
+    list-style-type: none;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.about-work-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #533738;
+}
+
+.quot {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.quot-img-list {
+    list-style-type: none;
+}
+
+.quot-caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.main-tagline-white {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.form {
+    background-color: #8D7370;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.contacts-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.tel-footer a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    text-decoration: none;
+}
