@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="main-page">
-    <header class="header">
+    <header class="header" tabindex="1">
         <div class="page-container header-container">
             <nav class="header-nav main-nav">
                 <div class="header-logo">
@@ -32,7 +32,7 @@
 
     <main class="page-main">
         <section class="promo">
-            <div class="page-container promo-container">
+            <div class="page-container promo-container page-container-inner">
                 <h1 class="visually-hidden">Студия Сканди</h1>
                 <h2 class="promo-tagline">Поможем сделать вашу квартиру уютнее</h2>
                 <p class="promo-text">
@@ -44,7 +44,7 @@
         </section>
 
         <section class="about" id="about">
-            <div class="page-container about-container">
+            <div class="page-container about-container page-container-inner">
                 <h2 class="title about-title">О нас</h2>
                 <div class="about-content">
                     <img class="about-img" src="images/about-img.jpg" alt="Сервировка стола" width="445" height="465">
@@ -59,7 +59,6 @@
                         </p>
                         <p>
                             Наш коллектив сделает все, чтобы после сотрудничества с&nbsp;нами, Вам было приятно сказать:
-                            <br>
                             &laquo;Да! Это именно&nbsp;то, что действительно достойно моего дома!&raquo;
                         </p>
                     </div>
@@ -187,16 +186,16 @@
             <div class="page-container">
                 <h2 class="title about-work-title">Как мы работаем</h2>
                 <ol class="about-work-list">
-                    <li class="about-work-text about-work-text-1">Знакомимся, выезжаем
+                    <li class="about-work-text">Знакомимся, выезжаем
                         на объект, утверждаем концепцию, подписываем договор.
                     </li>
-                    <li class="about-work-text about-work-text-2">Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+                    <li class="about-work-text">Подбираем мебель, текстиль, аксессуары. Делаем 3D-
                         визуализацию.
                     </li>
-                    <li class="about-work-text about-work-text-3">Находим нужные магазины, помогаем с доставкой
+                    <li class="about-work-text">Находим нужные магазины, помогаем с доставкой
                         и оплатой товаров.
                     </li>
-                    <li class="about-work-text about-work-text-4">Воплощаем проект в жизнь:
+                    <li class="about-work-text">Воплощаем проект в жизнь:
                         расставляем мебель и цветы, вешаем шторы, находим места для мелочей
                     </li>
                 </ol>
@@ -211,7 +210,8 @@
                         <li class="reviews-item">
                             <div>
                                 <blockquote>
-                                    <p>&laquo;Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для
+                                    <p>&laquo;Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию
+                                        для
                                         украшения своего дома.</p>
                                     <p>Работа шла быстро, было очень приятно общаться и взаимодействовать
                                         с сотрудниками. Не ожидала, что это будет так легко!</p>
@@ -221,7 +221,8 @@
                             </div>
                             <ul class="reviews-images">
                                 <li class="reviews-images-item">
-                                    <img src="images/feedback-1.jpg" alt="Интерьер гостиной Анны" width="407" height="272">
+                                    <img src="images/feedback-1.jpg" alt="Интерьер гостиной Анны" width="407"
+                                         height="272">
                                 </li>
                                 <li class="reviews-images-item">
                                     <img src="images/feedback-2.jpg" alt="Интерьер кухни Анны" width="407" height="272">
@@ -232,14 +233,18 @@
                     <div class="carousel-controls">
                         <button class="carousel-btn carousel-btn-prev">
                             <span class="visually-hidden">Предыдущий слайд</span>
-                            <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM33 9H1V7H33V9Z" fill="#F5F2ED"/>
+                            <svg width="33" height="16" viewBox="0 0 33 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM33 9H1V7H33V9Z"
+                                      fill="#F5F2ED"/>
                             </svg>
                         </button>
                         <button class="carousel-btn carousel-btn-next">
                             <span class="visually-hidden">Следующий слайд</span>
-                            <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM33 9H1V7H33V9Z" fill="#F5F2ED"/>
+                            <svg width="33" height="16" viewBox="0 0 33 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM33 9H1V7H33V9Z"
+                                      fill="#F5F2ED"/>
                             </svg>
                         </button>
                     </div>
@@ -248,7 +253,7 @@
         </section>
 
         <section class="feedback">
-            <div class="page-container feedback-container">
+            <div class="page-container feedback-container page-container-inner">
                 <div class="form feedback-form" id="form-request">
                     <form class="form-request" action="/" method="get">
                         <h2 class="feedback-title">Оставить заявку</h2>
@@ -276,12 +281,12 @@
 
     </main>
 
-    <footer class="main-footer">
+    <footer class="main-footer footer">
         <div class="page-container footer-container">
-            <div class="footer-tel">
+            <div class="footer-wrapper">
                 <a href="tel:+79818574624">+7 (981) 857-46-24</a>
-                <address class="footer-contacts footer-address">г. Санкт-петербург, ул. Большая Конюшенная, 19</address>
-                <span class="footer-contacts">ИП Королёва А.А.</span>
+                <address class="footer-address">г. Санкт-петербург, ул. Большая Конюшенная, 19</address>
+                <span>ИП Королёва А.А.</span>
             </div>
         </div>
     </footer>
