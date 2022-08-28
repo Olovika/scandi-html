@@ -26,7 +26,7 @@ html {
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: inherit;
 }
 
@@ -280,9 +280,14 @@ img {
 
 /* Блок  Portfolio */
 
+.portfolio {
+    padding-bottom: 65px;
+}
+
 .portfolio-wrapper {
     display: grid;
     gap: 30px;
+    margin-bottom: 40px;
 }
 
 .portfolio-row {
@@ -356,11 +361,18 @@ img {
     font-size: 30px;
     line-height: 37px;
     color: #533738;
-    display: block;
-    width: 294px;
+    max-width: 344px;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 65px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.button-next a:hover,
+.button-next a:focus {
+    background-color: #E2C4BA;
 }
 
 /* Блок  Team */
